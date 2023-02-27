@@ -3,7 +3,7 @@ package com.example.aop_example.service;
 public class CalculatorForEngineering implements Calculator {
 
     @Override
-    public long factorial(final long num) {
+    public long factorial(long num) {
         if (num == 0) {
             return 1;
         }
